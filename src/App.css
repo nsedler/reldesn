@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+
+body {
+  font-family: 'ADLaM Display', cursive;
+  /* background-image: linear-gradient(to bottom right, #1f1b1c, #121212); */
+  background-color: #eaeaea;
+}
+
+.header-parent {
+  display: grid;
+  width:100%;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 20vw;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  background-position: 100% center;
+  background-size: cover;
+  color: #eaeaea;
+}
+
+
+.text-parent {
+  grid-area: 1 / 1 / 2 / 2;
+  backdrop-filter: blur(0.8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-info #name {
+  font-size: 5em;
+}
+
+.name-info #title {
+  font-size: 2.5em;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.image-parent {
+  display: flex;
+  justify-content: center;
+  grid-area: 1 / 2 / 2 / 3;
+  backdrop-filter: blur(0.8px);
+}
+
+.image-parent img {
+  position: relative;
+  transform: scale(0.8px);
+}
+
+.selfie-container {
+  transform: scale(0.8);
+  border: solid 5px #ffffff;
+  border-radius: 25px;
+}
+
+.about-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  display: flex;
+  border: 8px solid #121212;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: #c3c3c3;
+  margin: 15px;
+  word-wrap: break-word;
+}
+
+.info-card #project-title {
+  font-size: 3.5em;
+}
+
+.info-card #project-description {
+  font-size: 1.5em;
+}
+
+.info-card #project-stack {
+  font-size: 0.9em;
+  text-decoration: underline;
+}
