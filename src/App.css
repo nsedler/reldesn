@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
 
-/* html {
-  font-size: 100%;
-} */
-
 body {
   font-family: 'Fira Code', monospace;
   /* background-image: linear-gradient(to bottom right, #1f1b1c, #121212); */
   background-color: #eaeaea;
   padding-bottom: 50px;
 }
+
+/* =============================== START HEADER =============================== */
 
 .header-parent {
   /* display: grid;
@@ -80,6 +78,10 @@ body {
   border-radius: 25px;
 }
 
+/* =============================== END HEADER =============================== */
+
+
+/* =============================== START ABOUT =============================== */
 .about-parent {
   display: flex;
   flex-wrap: wrap;
@@ -122,6 +124,10 @@ body {
   margin-right: 25px;
 }
 
+/* =============================== END ABOUT =============================== */
+
+
+/* =============================== START FOOTER =============================== */
 .footer-parent {
   position: fixed;
   width: 100%;
@@ -156,3 +162,5 @@ body {
 .card-logo img {
   height: 14px;
 }
+
+/* =============================== END FOOTER =============================== */
