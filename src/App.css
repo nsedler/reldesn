@@ -27,15 +27,28 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
+.name-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .name-info #name {
   font-size: 5em;
+  background-color: #121212d0;
+  padding-left: 25px;
+  padding-right: 25px;
+  
 }
 
 .name-info #title {
   font-size: 2.5em;
   text-decoration: underline;
   text-align: center;
+  background-color: #121212d0;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
 }
 
 .image-parent {
@@ -94,4 +107,34 @@ body {
 
 .info-logo-container {
   margin-right: 25px;
+}
+
+.footer-parent {
+  position: absolute;
+  width: 100%;
+  background-color: #121212;
+  bottom: 0;
+  color: #eaeaea;
+}
+
+.card-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.card-link {
+  display: flex;
+  border-left: #eaeaea 2px solid;
+  align-items: center;
+  background-color: #4d4d4d;
+  padding: 5px 10px 5px;
+}
+
+.card-link .card-name {
+  margin-left: 5px;
+}
+
+.card-logo img{
+  height: 30px;
 }
