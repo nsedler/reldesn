@@ -1,37 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
 
 body {
   font-family: 'Fira Code', monospace;
-  /* background-image: linear-gradient(to bottom right, #1f1b1c, #121212); */
   background-color: #eaeaea;
-  /* padding-bottom: 30px; */
 }
 
 /* =============================== START HEADER =============================== */
 
 .header-parent {
-  /* display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 10%;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px; */
   display: flex;
   width: 100%;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  background-position: 100% center;
+  background-position: 90%;
   background-size: cover;
   color: #eaeaea;
   border-bottom: #121212 5px solid;
 }
 
 .text-parent {
-  /* grid-area: 1 / 1 / 2 / 2; */
   backdrop-filter: blur(0.8px);
   display: flex;
-  /* justify-content: flex-end;
-  align-items: center; */
 }
 .name-info {
   display: flex;
@@ -41,7 +30,6 @@ body {
 }
 
 .name-info #name {
-  /* font-size: clamp(1em, 10vw, 5em); */
   font-size: 32px;
   background-color: #121212d0;
   padding-left: 18px;
@@ -50,7 +38,6 @@ body {
 }
 
 .name-info #title {
-  /* font-size: 2.5em; */
   font-size: 24px;
   text-decoration: underline;
   text-decoration-color: #eaeaea;
@@ -64,7 +51,6 @@ body {
 .image-parent {
   display: flex;
   justify-content: center;
-  grid-area: 1 / 2 / 2 / 3;
   backdrop-filter: blur(0.8px);
   margin-top: 10px;
   margin-bottom: 10px;
@@ -94,7 +80,6 @@ body {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  /* max-width: 45%; */
   border-width: 8px;
   border-style: solid;
   border-image: linear-gradient(to top left, #121212, #4d4d4d) 30;
@@ -106,7 +91,6 @@ body {
 }
 
 .info-card #project-title {
-  /* font-size: clamp(32px, 8vw, 48px); */
   font-size: 28px;
 }
 
@@ -116,12 +100,10 @@ body {
 }
 
 .info-card #project-description {
-  /* font-size: clamp(16px, 5vw, 24px); */
   font-size: 16px;
 }
 
 .info-card #project-stack {
-  /* font-size: clamp(14px, 1vw, 16px); */
   font-size: 12px;
   text-decoration: underline;
   color: #c3c3c3;
@@ -129,7 +111,6 @@ body {
 
 .info-logo-container {
   display: flex;
-  /* justify-content: flex-start; */
   align-items: center;
 }
 
@@ -159,8 +140,6 @@ body {
 
 .card-link {
   display: flex;
-  /* border-left: #eaeaea 2px solid;
-  border-right: #eaeaea 2px solid;  */
   align-items: center;
   background-color: #4d4d4d;
   padding: 5px;
