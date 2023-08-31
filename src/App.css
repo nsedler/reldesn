@@ -72,6 +72,7 @@ body {
 .about-parent {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .info-card {
@@ -131,10 +132,15 @@ body {
   padding: 5px 10px 5px;
 }
 
+.card-container a {
+  color: #eaeaea;
+  text-decoration: none;
+}
+
 .card-link .card-name {
   margin-left: 5px;
 }
 
-.card-logo img{
+.card-logo img {
   height: 30px;
 }

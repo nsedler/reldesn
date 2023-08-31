@@ -1,12 +1,16 @@
 import React from 'react';
 import GithubLogo from './images/github-mark-white.png';
+import LinkedInLogo from './images/In-White-128@2x.png';
+import MailLogo from './images/mail-32.png';
 
 
 export default function Footer() {
     return (
         <>
             <div className='footer-parent'>
+            
                 <div className='card-container'>
+                <a href='https://github.com/nsedler'>
                     <div className='card-link'>
                         <div className='card-logo'>
                             <img src={GithubLogo} />
@@ -15,14 +19,27 @@ export default function Footer() {
                             Github
                         </div>
                     </div>
+                    </a>
+                    <a href='https://www.linkedin.com/in/nate-sedler-6abbb01b1/'>
                     <div className='card-link'>
                         <div className='card-logo'>
-                            <img src={GithubLogo} />
+                            <img src={LinkedInLogo} />
                         </div>
                         <div className='card-name'>
                             LinkedIn
                         </div>
                     </div>
+                    </a>
+                    <a href='mailto:nsedler1@gmail.coma '>
+                    <div className='card-link'>
+                        <div className='card-logo'>
+                            <img src={MailLogo} />
+                        </div>
+                        <div className='card-name'>
+                            nsedler1@gmail.com
+                        </div>
+                    </div>
+                    </a>
                 </div>
             </div>
         </>
