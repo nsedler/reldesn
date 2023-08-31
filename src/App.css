@@ -5,7 +5,7 @@ body {
   font-family: 'Fira Code', monospace;
   /* background-image: linear-gradient(to bottom right, #1f1b1c, #121212); */
   background-color: #eaeaea;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 /* =============================== START HEADER =============================== */
@@ -143,31 +143,33 @@ body {
 
 /* =============================== START FOOTER =============================== */
 .footer-parent {
-  position: fixed;
+  position: relative;
   width: 100%;
-  background-color: #121212;
+  top: 0%;
+  background-color: #4d4d4d;
   bottom: 0%;
   color: #eaeaea;
 }
 
 .card-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .card-link {
   display: flex;
-  border-left: #eaeaea 2px solid;
-  border-right: #eaeaea 2px solid;
+  /* border-left: #eaeaea 2px solid;
+  border-right: #eaeaea 2px solid;  */
   align-items: center;
   background-color: #4d4d4d;
-  padding: 5px 10px 5px;
+  padding: 5px;
 }
 
 .card-container a {
   color: #eaeaea;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .card-link .card-name {
