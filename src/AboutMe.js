@@ -23,7 +23,7 @@ export default function AboutMe({ project }) {
                 </div>
                 <div className='info-text-container'>
                     <div id='project-title'>
-                        <a href='/'>{project.title}</a>
+                        <a href={project.link}>{project.title}</a>
                     </div>
                     <div id='project-description'>
                         {project.description}

@@ -32,13 +32,13 @@
         "title": "Snake Game",
         "description": "A clone of the classic game Snake.  Made with PyGame, with a SQLite powered leaderboard to encourage competitivness.",
         "stack": "C++, Arduiono, Microcontrollers",
-        "link": "https://github.com/nsedler/4-bit-binary-adder"
+        "link": "https://github.com/nsedler/snake-game"
     },
     {
         "image": "python",
         "title": "Garmin Watch/Strava Data Analysis",
         "description": "Data Analysis/Visualization of personal fitness data.  Garmin Watch data is extracted using an open source Python package.  Strava Data is achieved using the Python Strava package; stravalib.",
         "stack": "Python, Jupyter Notebooks, API, Data Anaylsis, Data Visualization",
-        "link": "https://github.com/nsedler/4-bit-binary-adder"
+        "link": "https://github.com/nsedler/strava_data"
     }
 ]
