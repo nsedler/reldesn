@@ -19,7 +19,7 @@ export default function AboutMe({ project }) {
 
             <div className='info-card'>
                 <div className='info-logo-container'>
-                    <img src={imgMap[project.image]} height="128px" />
+                    <img src={imgMap[project.image]} />
                 </div>
                 <div className='info-text-container'>
                     <div id='project-title'>
