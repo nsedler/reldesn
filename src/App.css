@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
 
-html {
+/* html {
   font-size: 100%;
-}
+} */
 
 body {
   font-family: 'Fira Code', monospace;
@@ -13,12 +13,15 @@ body {
 }
 
 .header-parent {
-  display: grid;
-  width: 100%;
+  /* display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 10%;
   grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-row-gap: 5px; */
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
   background-position: 100% center;
   background-size: cover;
   color: #eaeaea;
@@ -26,20 +29,22 @@ body {
 }
 
 .text-parent {
-  grid-area: 1 / 1 / 2 / 2;
+  /* grid-area: 1 / 1 / 2 / 2; */
   backdrop-filter: blur(0.8px);
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  /* justify-content: flex-end;
+  align-items: center; */
 }
 .name-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .name-info #name {
-  font-size: clamp(1em, 10vw, 5em);
+  /* font-size: clamp(1em, 10vw, 5em); */
+  font-size: 40px;
   background-color: #121212d0;
   padding-left: 25px;
   padding-right: 25px;
@@ -47,7 +52,8 @@ body {
 }
 
 .name-info #title {
-  font-size: 2.5em;
+  /* font-size: 2.5em; */
+  font-size: 20px;
   text-decoration: underline;
   text-align: center;
   background-color: #121212d0;
@@ -65,7 +71,7 @@ body {
 
 .image-parent img {
   position: relative;
-  transform: scale(0.8px);
+  width: 225px;
 }
 
 .selfie-container {
