@@ -7,7 +7,7 @@
         "link": "https://github.com/nsedler/EddieBot"
     },
     {
-        "image": "Laravel",
+        "image": "laravel",
         "title": "Investigation Buddy",
         "description": "Cincinnati State capstone project.  A website made for a local townships zoning department.  Helps increase workers productivity by providing a better, more streamlined workflow.",
         "stack": "PHP, Laravel, Git(hub), Linode, Teams",
