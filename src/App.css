@@ -42,21 +42,22 @@ body {
 
 .name-info #name {
   /* font-size: clamp(1em, 10vw, 5em); */
-  font-size: 38px;
+  font-size: 32px;
   background-color: #121212d0;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 18px;
+  padding-right: 18px;
   
 }
 
 .name-info #title {
   /* font-size: 2.5em; */
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: underline;
+  text-decoration-color: #eaeaea;
   text-align: center;
   background-color: #121212d0;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 18px;
+  padding-right: 18px;
   padding-bottom: 10px;
 }
 
@@ -71,7 +72,7 @@ body {
 
 .image-parent img {
   position: relative;
-  width: 220px;
+  width: 160px;
 }
 
 .selfie-container {
@@ -91,7 +92,7 @@ body {
 
 .info-card {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   /* max-width: 45%; */
   border-width: 8px;
@@ -111,6 +112,7 @@ body {
 
 .info-card #project-title a {
   color: #eaeaea;
+  text-decoration-thickness: 2px;
 }
 
 .info-card #project-description {
@@ -125,8 +127,15 @@ body {
   color: #c3c3c3;
 }
 
+.info-logo-container {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+
 .info-logo-container img {
-  height: 128px;
+  height: 64px;
+  margin-right: 10px;
 }
 
 /* =============================== END ABOUT =============================== */

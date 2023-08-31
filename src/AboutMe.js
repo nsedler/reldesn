@@ -19,12 +19,15 @@ export default function AboutMe({ project }) {
 
             <div className='info-card'>
                 <div className='info-logo-container'>
-                    <img src={imgMap[project.image]} />
-                </div>
-                <div className='info-text-container'>
+                    <div id='project-logo'>
+                        <img src={imgMap[project.image]} />
+                    </div>
                     <div id='project-title'>
                         <a href={project.link}>{project.title}</a>
                     </div>
+                </div>
+                <div className='info-text-container'>
+                    
                     <div id='project-description'>
                         {project.description}
                     </div>
