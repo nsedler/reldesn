@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4570931e.css",
-    "main.js": "/static/js/main.2599f0f6.js",
+    "main.js": "/static/js/main.a747bcf9.js",
     "static/js/787.69bd944a.chunk.js": "/static/js/787.69bd944a.chunk.js",
     "static/media/cincy.jpg": "/static/media/cincy.5216fde8a476b715811a.jpg",
     "static/media/c-logo.png": "/static/media/c-logo.2b2276395e116be80813.png",
@@ -11,11 +11,11 @@
     "static/media/pngwing.com.png": "/static/media/pngwing.com.ae4aeb93738ebdf70858.png",
     "index.html": "/index.html",
     "main.4570931e.css.map": "/static/css/main.4570931e.css.map",
-    "main.2599f0f6.js.map": "/static/js/main.2599f0f6.js.map",
+    "main.a747bcf9.js.map": "/static/js/main.a747bcf9.js.map",
     "787.69bd944a.chunk.js.map": "/static/js/787.69bd944a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4570931e.css",
-    "static/js/main.2599f0f6.js"
+    "static/js/main.a747bcf9.js"
   ]
 }
