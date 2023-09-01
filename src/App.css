@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
 
+html,
 body {
   font-family: 'Fira Code', monospace;
   background-color: #eaeaea;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* =============================== START HEADER =============================== */
@@ -10,20 +13,21 @@ body {
 .header-parent {
   display: flex;
   width: 100%;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-  background-position: 90%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-position: 100%;
   background-size: cover;
   color: #eaeaea;
   border-bottom: #121212 5px solid;
 }
 
 .text-parent {
-  backdrop-filter: blur(0.8px);
   display: flex;
 }
+
 .name-info {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 10px;
@@ -34,7 +38,7 @@ body {
   background-color: #121212d0;
   padding-left: 18px;
   padding-right: 18px;
-  
+
 }
 
 .name-info #title {
@@ -51,7 +55,6 @@ body {
 .image-parent {
   display: flex;
   justify-content: center;
-  backdrop-filter: blur(0.8px);
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -66,6 +69,45 @@ body {
   border-radius: 25px;
 }
 
+@media (min-width: 768px) {
+  .header-parent {
+    justify-content: flex-start;
+  }
+
+  .image-parent {
+    margin: 10px;
+  }
+
+  .name-info #name {
+    font-size: 48px;
+  }
+
+  .name-info #title {
+    font-size: 32px;
+  }
+
+  .image-parent img {
+    width: 220px;
+  }
+
+}
+
+@media (min-width: 992px){
+
+  
+  .name-info #name {
+    font-size: 86px;
+  }
+
+  .name-info #title {
+    font-size: 48px
+  }
+
+  .image-parent img {
+    width: 300px;
+  }
+}
+
 /* =============================== END HEADER =============================== */
 
 
@@ -73,13 +115,14 @@ body {
 .about-parent {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .info-card {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  justify-content: sp;
+  align-items: flex-start;
+  flex-direction: column;
   border-width: 8px;
   border-style: solid;
   border-image: linear-gradient(to top left, #121212, #4d4d4d) 30;
@@ -119,6 +162,36 @@ body {
   margin-right: 10px;
 }
 
+@media (min-width: 768px) {
+  .info-card {
+    max-width: 40%;
+    height: auto;
+  }
+
+}
+
+@media (min-width: 992px){
+
+  .info-card #project-title {
+    font-size: 48px;
+  }
+
+  .info-card #project-description {
+    font-size: 24px;
+  }
+
+  .info-card #project-stack {
+    font-size: 16px;
+  }
+
+  .info-card {
+    min-width: 45%;
+  }
+
+  .info-logo-container img {
+    height: 90px;
+  }
+}
 /* =============================== END ABOUT =============================== */
 
 
@@ -157,6 +230,16 @@ body {
 
 .card-logo img {
   height: 14px;
+}
+
+@media (min-width: 768px){
+  .card-container a {
+    font-size: 18px;
+  }
+
+  .card-logo img {
+    height: 18px;
+  }
 }
 
 /* =============================== END FOOTER =============================== */
