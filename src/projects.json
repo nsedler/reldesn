@@ -4,41 +4,47 @@
         "title": "Eddie Bot",
         "description": "A general purpose discord bot with commands ranging from music playing to joke giving.",
         "stack": "Java, JDA (Java Discord API), Heroku, Git(hub)",
-        "link": "https://github.com/nsedler/EddieBot"
+        "link": "https://github.com/nsedler/EddieBot",
+        "rank": 5
     },
     {
         "image": "laravel",
         "title": "Investigation Buddy",
         "description": "Cincinnati State capstone project.  A website made for a local townships zoning department.  Helps increase workers productivity by providing a better, more streamlined workflow.",
         "stack": "PHP, Laravel, Git(hub), Linode, Teams",
-        "link": "#"
+        "link": "#",
+        "rank": 1
     },
     {
         "image": "html",
         "title": "Nates Guides",
         "description": "League of Legends guide / tips website. Made in highschool to practice web development.",
         "stack": "HTML, CSS, Bootstrap, Git(hub)",
-        "link": "nsedler.github.io"
+        "link": "nsedler.github.io",
+        "rank": 6
     },
     {
         "image": "cpp",
         "title": "4 Bit Binary Counter",
         "description": "Arudiono powered 4 bit binary counter.  Using 4 led lights to represent 1's and 0's and an LCD screen to show the current count.",
         "stack": "C++, Arduiono, Microcontrollers",
-        "link": "https://github.com/nsedler/4-bit-binary-adder"
+        "link": "https://github.com/nsedler/4-bit-binary-adder",
+        "rank": 3
     },
     {
         "image": "python",
         "title": "Snake Game",
         "description": "A clone of the classic game Snake.  Made with PyGame, with a SQLite powered leaderboard to encourage competitivness.",
         "stack": "C++, Arduiono, Microcontrollers",
-        "link": "https://github.com/nsedler/snake-game"
+        "link": "https://github.com/nsedler/snake-game",
+        "rank": 2
     },
     {
         "image": "python",
         "title": "Garmin Watch/Strava Data Analysis",
         "description": "Data Analysis/Visualization of personal fitness data.  Garmin Watch data is extracted using an open source Python package.  Strava Data is achieved using the Python Strava package; stravalib.",
         "stack": "Python, Jupyter Notebooks, API, Data Anaylsis, Data Visualization",
-        "link": "https://github.com/nsedler/strava_data"
+        "link": "https://github.com/nsedler/strava_data",
+        "rank": 4
     }
 ]
