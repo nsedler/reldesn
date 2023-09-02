@@ -6,6 +6,7 @@ body {
   background-color: #eaeaea;
   max-width: 100%;
   overflow-x: hidden;
+  margin-bottom: 15px;
 }
 
 /* =============================== START HEADER =============================== */
@@ -113,6 +114,8 @@ body {
 
 /* =============================== START ABOUT =============================== */
 .about-parent {
+  width: auto;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -120,7 +123,7 @@ body {
 
 .info-card {
   display: flex;
-  justify-content: sp;
+  justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   border-width: 8px;
@@ -128,7 +131,7 @@ body {
   border-image: linear-gradient(to top left, #121212, #4d4d4d) 30;
   padding: 15px;
   background-image: linear-gradient(to top left, #4d4d4d, #888888);
-  margin: 15px;
+  margin: 15px 15px 0px 15px;
   word-wrap: break-word;
   color: #eaeaea;
 }
@@ -173,23 +176,23 @@ body {
 @media (min-width: 992px){
 
   .info-card #project-title {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   .info-card #project-description {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .info-card #project-stack {
-    font-size: 16px;
-  }
-
-  .info-card {
-    min-width: 45%;
+    font-size: 14px;
   }
 
   .info-logo-container img {
-    height: 90px;
+    height: 60px;
+  }
+
+  .info-card {
+    height: auto;
   }
 }
 /* =============================== END ABOUT =============================== */
