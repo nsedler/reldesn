@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4570931e.css",
+    "main.css": "/static/css/main.8ba57d9c.css",
     "main.js": "/static/js/main.a747bcf9.js",
     "static/js/787.69bd944a.chunk.js": "/static/js/787.69bd944a.chunk.js",
     "static/media/cincy.jpg": "/static/media/cincy.5216fde8a476b715811a.jpg",
@@ -10,12 +10,12 @@
     "static/media/python-logo.png": "/static/media/python-logo.632369df831d16241b59.png",
     "static/media/pngwing.com.png": "/static/media/pngwing.com.ae4aeb93738ebdf70858.png",
     "index.html": "/index.html",
-    "main.4570931e.css.map": "/static/css/main.4570931e.css.map",
+    "main.8ba57d9c.css.map": "/static/css/main.8ba57d9c.css.map",
     "main.a747bcf9.js.map": "/static/js/main.a747bcf9.js.map",
     "787.69bd944a.chunk.js.map": "/static/js/787.69bd944a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4570931e.css",
+    "static/css/main.8ba57d9c.css",
     "static/js/main.a747bcf9.js"
   ]
 }
