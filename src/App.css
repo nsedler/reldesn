@@ -3,7 +3,7 @@
 html,
 body {
   font-family: 'Fira Code', monospace;
-  background-color: #eaeaea;
+  background-color: #FFE6C7;
   max-width: 100%;
   overflow-x: hidden;
   margin-bottom: 15px;
@@ -11,102 +11,15 @@ body {
 
 /* =============================== START HEADER =============================== */
 
-.header-parent {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  background-position: 100%;
-  background-size: cover;
-  color: #eaeaea;
-  border-bottom: #121212 5px solid;
-}
 
-.text-parent {
-  display: flex;
-}
-
-.name-info {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-
-.name-info #name {
-  font-size: 32px;
-  background-color: #121212d0;
-  padding-left: 18px;
-  padding-right: 18px;
-
-}
-
-.name-info #title {
-  font-size: 24px;
-  text-decoration: underline;
-  text-decoration-color: #eaeaea;
-  text-align: center;
-  background-color: #121212d0;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-bottom: 10px;
-}
-
-.image-parent {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.image-parent img {
-  position: relative;
-  width: 160px;
-}
-
-.selfie-container {
-  border: solid 5px #ffffff;
-  border-radius: 25px;
-}
 
 @media (min-width: 768px) {
-  .header-parent {
-    justify-content: flex-start;
-  }
 
-  .image-parent {
-    margin: 10px;
-  }
-
-  .name-info #name {
-    font-size: 48px;
-  }
-
-  .name-info #title {
-    font-size: 32px;
-  }
-
-  .image-parent img {
-    width: 220px;
-  }
 
 }
 
 @media (min-width: 992px){
 
-  
-  .name-info #name {
-    font-size: 86px;
-  }
-
-  .name-info #title {
-    font-size: 48px
-  }
-
-  .image-parent img {
-    width: 300px;
-  }
 }
 
 /* =============================== END HEADER =============================== */
@@ -247,3 +160,21 @@ body {
 }
 
 /* =============================== END FOOTER =============================== */
+
+/* =============================== START HEADER =============================== */
+
+.navbar-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid black;
+  padding: 5px 0 5px 0;
+}
+
+.navbar-parent a {
+  text-decoration: none;
+  font-size: 32px;
+}
+
+/* =============================== END HEADER =============================== */
