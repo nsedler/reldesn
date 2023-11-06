@@ -1,26 +1,21 @@
 import './App.css';
-import CHeader from './Header.js';
-import AboutMe from './AboutMe.js';
-import Footer from './LinkBar';
+import HomePage from './HomePage';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
-import Projects from './projects.json';
 
 function App() {
-  const sortedProjects = Projects.sort((a, b) => a.rank - b.rank);
+  
   return (
-    <div className="App">
-    <Footer />
-      <CHeader />
-      <div className='about-parent'>
-      { 
-        sortedProjects.map(e => (
-          <AboutMe project={e} />
-        ))
-      }
+    <>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<HomePage/>} />
+          {/* <Route path='/test' element={<CHeader/>} /> */}
+        </Routes>
       </div>
-      
-    </div>
+    </>
   );
 }
 
