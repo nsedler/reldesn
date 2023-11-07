@@ -10,17 +10,17 @@ export default function CHeader() {
                 Sedler<br></br>Nate
             </div>
             <div className='header-headshot-parent'>
-                <div className='header-headshot'>
-                    <img src={selfie} alt='personal headshot' height="315px"/>
-                </div>
-            </div>
-            <div className='header-img-master-parent'>
-                <div className='header-img-parent'>
-                    <div className='header-img-github'>
-                        <img src={github} height='35px'/>
+                <div className='header-img-container'>
+                    <div className='header-social-img-container'>
+                        <div className='header-img-github'>
+                            <img src={github} height='35px' alt="GitHub" />
+                        </div>
+                        <div className='header-img-linkedin'>
+                            <img src={linkedin} height='35px' alt="LinkedIn" />
+                        </div>
                     </div>
-                    <div className='header-img-linkedin'>
-                        <img src={linkedin} height='35px'/>
+                    <div className='header-headshot'>
+                        <img src={selfie} alt='personal headshot' height="315px" />
                     </div>
                 </div>
             </div>
@@ -30,5 +30,6 @@ export default function CHeader() {
                 Tech Enthusiast<br />
             </div>
         </div>
+
     );
 }
