@@ -13,13 +13,18 @@ export default function CHeader() {
                 <div className='header-img-container'>
                     <div className='header-social-img-container'>
                         <div className='header-img-github'>
+                        <a href='https://github.com/nsedler'>
                             <img src={github} height='35px' alt="GitHub" />
+                            </a>
                         </div>
                         <div className='header-img-linkedin'>
+                        <a href='https://www.linkedin.com/in/nate-sedler-6abbb01b1/'>
                             <img src={linkedin} height='35px' alt="LinkedIn" />
+                        </a>
                         </div>
                     </div>
                     <div className='header-headshot'>
+                    
                         <img src={selfie} alt='personal headshot' height="315px" />
                     </div>
                 </div>

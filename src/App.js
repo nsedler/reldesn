@@ -1,7 +1,7 @@
 import './App.css';
 import CHeader from './Header.js';
 import AboutMe from './AboutMe.js';
-import Footer from './LinkBar';
+import ProjectsList from './ProjectList';
 import Navbar from './Navbar.js';
 
 
@@ -22,6 +22,8 @@ function App() {
       </div> */}
       <Navbar />
       <CHeader/>
+      <AboutMe/>
+      <ProjectsList projects={Projects} />
     </div>
   );
 }
