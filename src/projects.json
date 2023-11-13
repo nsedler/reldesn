@@ -59,7 +59,7 @@
         "description": "A clone of the classic game Snake.  Made with PyGame, with a SQLite powered leaderboard to encourage competitivness.",
         "stack": "Python, Pygame, Object Oriented Python",
         "link": "https://github.com/nsedler/snake-game",
-        "rank": 2,
+        "rank": -7,
         "media" : [
             {
                 "type": "image",
@@ -94,7 +94,7 @@
         "description": "I am an avid runner. I bought a Garmin watch in January of 2023 to start tracking my runs / general health. Using the data from the watch I made graphs to show my weight loss (150+ pounds), weekly miles ran, average sleep per day of week, etc.  I found an open source library to extract my Garmin Data and have done some anaylsis on my watches data!",
         "stack": "Python, Jupyter Notebooks, API, Data Anaylsis, Data Visualization",
         "link": "https://github.com/nsedler/strava_data",
-        "rank": 4, 
+        "rank": -8, 
         "media" : [
             {
                 "type" : "image",
@@ -119,7 +119,7 @@
         "description": "My most recent project is an led strip. I programmed a web server to control a 15 meter led strip. I did this using an esp8266 to run and host the web server, an arduino nano to power the strip.",
         "stack": "C++, Arduiono, Microcontrollers, Soldering",
         "link": "https://github.com/nsedler/strava_data",
-        "rank": 0, 
+        "rank": -10, 
         "media" : [
             {
                 "type": "video",
