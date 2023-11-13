@@ -10,13 +10,13 @@ export default function ProjectList({ projects }) {
     };
 
     return (
-        <div>
+        <div className='project-list-parent'>
             <h1 className='sassy'>So what have I worked on?</h1>
             {projects.slice(0, visibleProjects).map((project, index) => (
                 <Project key={index} {...project} />
             ))}
             {visibleProjects < projects.length && (
-                <button onClick={loadMoreProjects}>See More</button>
+                <button className='seemore-button' onClick={loadMoreProjects}>see more...</button>
             )}
         </div>
     );

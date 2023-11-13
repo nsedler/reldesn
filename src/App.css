@@ -142,6 +142,27 @@ body {
   overflow: hidden;
 }
 
+.tldr-button {
+  background-color: #E46A4E;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tldr-button:hover {
+  background-color: #D2563A;
+}
+
+.tldr-button.clicked {
+  background-color: #4CAF50; /* Green color */
+}
+
+
+
 
 
 @media (min-width: 768px) {}
@@ -179,6 +200,29 @@ body {
 .project-slider {
   padding-bottom: 15px;
 }
+
+.project-img-caption {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.seemore-button {
+  text-align: center;
+  all: unset;
+  color: #fff;
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+/* .project-list-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
 
 @media (min-width: 768px) {}
 

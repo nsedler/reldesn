@@ -20,13 +20,19 @@ export default function Project({ image, title, description, link, stack, media 
                         {media.map((item, index) => (
                             <div key={index}>
                                 {item.type === 'image' && (
-                                    <img src={item.url} height='175px' alt={`${title} Image ${index + 1}`} />
+                                    <>
+                                        <img src={item.url} height='175px' alt={`${title} Image ${index + 1}`} />
+                                        <p className='project-img-caption'>{item.caption}</p>
+                                    </>
                                 )}
                                 {item.type === 'video' && (
-                                    <video height="175px" controls>
-                                        <source src={item.url} type="video/mp4" />
-                                        Your browser does not support the video tag.
-                                    </video>
+                                    <>
+                                        <video height="175px" controls>
+                                            <source src={item.url} type="video/mp4" />
+                                            Your browser does not support the video tag.
+                                        </video>
+                                        <p className='project-img-caption'>{item.caption}</p>
+                                    </>
                                 )}
                             </div>
                         ))}

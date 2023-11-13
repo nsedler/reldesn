@@ -41,14 +41,15 @@
     {
         "image": "cpp",
         "title": "4 Bit Binary Counter",
-        "description": "Arudiono powered 4 bit binary counter.  Using 4 led lights to represent 1's and 0's and an LCD screen to show the current count.",
+        "description": "This was my first project and introduction into arduino.  I made a simple visual binary adder.  Using 4 leds I displayed the current count and on an LCD screen I displayed the corresponding base 10 number!",
         "stack": "C++, Arduiono, Microcontrollers",
         "link": "https://github.com/nsedler/4-bit-binary-adder",
         "rank": 3,
         "media" : [
             {
                 "type": "image",
-                "url" : "project_visuals/binary_adder/4bitadder.png"
+                "url" : "project_visuals/binary_adder/4bitadder.png",
+                "caption" : "Schematic for a 4 bit adder"
             }
         ]
     },
@@ -56,61 +57,79 @@
         "image": "python",
         "title": "Snake Game",
         "description": "A clone of the classic game Snake.  Made with PyGame, with a SQLite powered leaderboard to encourage competitivness.",
-        "stack": "C++, Arduiono, Microcontrollers",
+        "stack": "Python, Pygame, Object Oriented Python",
         "link": "https://github.com/nsedler/snake-game",
         "rank": 2,
         "media" : [
             {
                 "type": "image",
-                "url" : "project_visuals/snek/snek.png"
+                "url" : "project_visuals/snek/snek.png",
+                "caption" :"A clone of the popular snake game."
+            },
+            {
+                "type": "video",
+                "url" : "project_visuals/snek/snek_demo.mp4",
+                "caption" :"A clone of the popular snake game."
             }
         ]
     },
     {
         "image": "python",
         "title": "Strava Data Analysis",
-        "description": "Data Analysis/Visualization of personal fitness data.  Garmin Watch data is extracted using an open source Python package.  Strava Data is achieved using the Python Strava package; stravalib.",
+        "description": "I often use the popular fitness tracking app Strava to look at the stats of my runs and activities.  I found a python library to access the Strava API and did some anylsis / graphing of my activity data.",
         "stack": "Python, Jupyter Notebooks, API, Data Anaylsis, Data Visualization",
         "link": "https://github.com/nsedler/strava_data",
         "rank": 4, 
         "media" : [
             {
-                
+                "type" : "image",
+                "url" : "project_visuals/strava_analysis/sufferscore.png",
+                "caption" : "A distribution of my suffering"
             }
         ]
     },
     {
         "image": "python",
         "title": "Garmin Watch Data Analysis",
-        "description": "Data Analysis/Visualization of personal fitness data.  Garmin Watch data is extracted using an open source Python package.  Strava Data is achieved using the Python Strava package; stravalib.",
+        "description": "I am an avid runner. I bought a Garmin watch in January of 2023 to start tracking my runs / general health. Using the data from the watch I made graphs to show my weight loss (150+ pounds), weekly miles ran, average sleep per day of week, etc.  I found an open source library to extract my Garmin Data and have done some anaylsis on my watches data!",
         "stack": "Python, Jupyter Notebooks, API, Data Anaylsis, Data Visualization",
         "link": "https://github.com/nsedler/strava_data",
         "rank": 4, 
         "media" : [
             {
-                
+                "type" : "image",
+                "url" : "project_visuals/garmin_analysis/avgdailymiles.png",
+                "caption" : "My daily miles ran currently"
+            }, 
+            {
+                "type" : "image",
+                "url" : "project_visuals/garmin_analysis/avgsleepdaily.png",
+                "caption" : "My daily hours slept"
+            },
+            {
+                "type" : "image",
+                "url" : "project_visuals/garmin_analysis/weightloss.png",
+                "caption" : "Graph of my weight loss"
             }
         ]
     },
     {
         "image": "python",
         "title": "Led Strip",
-        "description": "Data Analysis/Visualization of personal fitness data.  Garmin Watch data is extracted using an open source Python package.  Strava Data is achieved using the Python Strava package; stravalib.",
-        "stack": "Python, Jupyter Notebooks, API, Data Anaylsis, Data Visualization",
+        "description": "My most recent project is an led strip. I programmed a web server to control a 15 meter led strip. I did this using an esp8266 to run and host the web server, an arduino nano to power the strip.",
+        "stack": "C++, Arduiono, Microcontrollers, Soldering",
         "link": "https://github.com/nsedler/strava_data",
         "rank": 0, 
         "media" : [
             {
                 "type": "video",
-                "url" : "project_visuals/ledstrip/led_strip_01.mp4"
-            },
-            {
-                "type": "video",
-                "url" : "project_visuals/ledstrip/led_strip_02.mp4"
+                "url" : "project_visuals/ledstrip/led_strip_02.mp4",
+                "caption" : "Video demo of the full length strip"
             },
             {
                 "type" : "image",
-                "url" : "project_visuals/ledstrip/strip_controller.jpg"
+                "url" : "project_visuals/ledstrip/strip_controller.jpg",
+                "caption" : "A picture of the strip contoller."
             }
         ]
     }
