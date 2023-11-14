@@ -33,9 +33,12 @@ export default function AboutMe() {
                 </div>
 
                 <div className='about-me-info-parent-container'>
-                <button className={`tldr-button ${showBio ? '' : 'clicked'}`} onClick={toggleContent}>
-    <span role="img" aria-label="lightning emoji">⚡</span> TL;DR <span role="img" aria-label="lightning emoji">⚡</span>
-</button>
+                    <button
+                        className={`tldr-button ${showBio ? 'checked' : ''}`}
+                        onClick={toggleContent}
+                    >
+                        {showBio ? 'Show TLDR' : 'Hide TLDR'}
+                    </button>
                     {showBio ? (
                         <div className='aboutme-bio'>
                             <p>

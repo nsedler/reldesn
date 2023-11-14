@@ -143,23 +143,20 @@ body {
 }
 
 .tldr-button {
-  background-color: #E46A4E;
-  color: white;
-  font-size: 16px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  text-align: center;
+  all: unset;
+  color: #706233;
+
+  display: block;
+  margin: auto;
+  font-size: 24px;
 }
 
-.tldr-button:hover {
-  background-color: #D2563A;
-}
 
 .tldr-button.clicked {
   background-color: #4CAF50; /* Green color */
 }
+
 
 
 

@@ -49,7 +49,7 @@
             {
                 "type": "image",
                 "url" : "project_visuals/binary_adder/4bitadder.png",
-                "caption" : "Schematic for a 4 bit adder"
+                "caption" : "Schematic For A 4 Bit Adder"
             }
         ]
     },
@@ -64,12 +64,12 @@
             {
                 "type": "image",
                 "url" : "project_visuals/snek/snek.png",
-                "caption" :"A clone of the popular snake game."
+                "caption" :"Screenshot of the Snek Game"
             },
             {
                 "type": "video",
                 "url" : "project_visuals/snek/snek_demo.mp4",
-                "caption" :"A clone of the popular snake game."
+                "caption" :"Gameplay Demo of the Snek Game"
             }
         ]
     },
@@ -84,7 +84,7 @@
             {
                 "type" : "image",
                 "url" : "project_visuals/strava_analysis/sufferscore.png",
-                "caption" : "A distribution of my suffering"
+                "caption" : "A Distribution of my Suffering"
             }
         ]
     },
@@ -99,17 +99,17 @@
             {
                 "type" : "image",
                 "url" : "project_visuals/garmin_analysis/avgdailymiles.png",
-                "caption" : "My daily miles ran currently"
+                "caption" : "My Daily Miles Ran Currently"
             }, 
             {
                 "type" : "image",
                 "url" : "project_visuals/garmin_analysis/avgsleepdaily.png",
-                "caption" : "My daily hours slept"
+                "caption" : "My Daily Hours Slept"
             },
             {
                 "type" : "image",
                 "url" : "project_visuals/garmin_analysis/weightloss.png",
-                "caption" : "Graph of my weight loss"
+                "caption" : "Graph of my Weight Loss"
             }
         ]
     },
@@ -124,12 +124,12 @@
             {
                 "type": "video",
                 "url" : "project_visuals/ledstrip/led_strip_02.mp4",
-                "caption" : "Video demo of the full length strip"
+                "caption" : "Video Demo of The Full Length Strip"
             },
             {
                 "type" : "image",
                 "url" : "project_visuals/ledstrip/strip_controller.jpg",
-                "caption" : "A picture of the strip contoller."
+                "caption" : "A Picture of The Strips Contoller"
             }
         ]
     }
